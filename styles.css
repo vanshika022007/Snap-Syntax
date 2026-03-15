@@ -13,7 +13,6 @@ body{
     align-items:center;
 }
 
-/* BOX */
 
 .box{
     width:450px;
@@ -24,7 +23,6 @@ body{
     position:relative;
 }
 
-/* KA outside */
 
 .ka{
     position:absolute;
@@ -36,8 +34,6 @@ body{
 }
 
 
-/* MUI inside */
-
 .mui{
     position:absolute;
     top:50%;
@@ -47,7 +43,6 @@ body{
     font-weight:bold;
 }
 
-/* SHIP */
 
 .ship{
     position:absolute;
@@ -109,15 +104,15 @@ scroll-behavior:smooth;
 }
 
 .kamui-logo svg{
-    width:120px;   /* smaller symbol */
+    width:120px; 
     height:120px;
 }
 
 .kamui-logo h1{
-    font-size:90px;     /* larger text */
+    font-size:90px;    
     color:black;
-    margin:0;           /* removes default spacing */
-    line-height:0.9;    /* brings text closer to symbol */
+    margin:0;         
+    line-height:0.9;   
     letter-spacing:6px;
     font-size:75px;
 }
@@ -129,7 +124,7 @@ scroll-behavior:smooth;
     position:relative;
 }
 
-/* bottom strip */
+
 
 .pink-strip{
     position:absolute;
@@ -144,14 +139,14 @@ scroll-behavior:smooth;
 }
 
 
-.p1{ background:#ff8fb1; }   /* darker pastel pink */
+.p1{ background:#ff8fb1; }   
 .p2{ background:#ffa3c1; }
 .p3{ background:#ffb7d1; }
 .p4{ background:#ffd1e1; }
-.p5{ background:#ffe4f0; }   /* very light pastel pink */
+.p5{ background:#ffe4f0; } 
 
 
-/* center logo */
+
 
 .kamui-center{
     height:100%;
@@ -179,7 +174,7 @@ scroll-behavior:smooth;
     position:relative;
 }
 
-/* bottom strip */
+
 
 .black-strip{
     position:absolute;
@@ -194,12 +189,12 @@ scroll-behavior:smooth;
 }
 
 
-.b1{ background:#000000; }  /* pure black */
+.b1{ background:#000000; } 
 .b2{ background:#222222; }
 .b3{ background:#424242; }
 .b4{ background:#808080; }
 .b5{ background:#bfbfbf; } 
-/* center logo */
+
 
 .kamui-center2{
     height:100%;
@@ -228,7 +223,7 @@ scroll-behavior:smooth;
     flex-direction:column;
 }
 
-/* top white section */
+
 
 .top-section{
     flex:1;
@@ -241,10 +236,10 @@ scroll-behavior:smooth;
 .top-section p{
     font-size:22px;
     line-height:1.6;
-    text-align:left;   /* text starts from left */
+    text-align:left;   
 }
 
-/* bottom red section */
+
 
 .bottom-section{
     flex:1;
@@ -254,7 +249,7 @@ scroll-behavior:smooth;
     align-items:center;
 }
 
-/* symbol + text */
+
 
 .kamui-red{
     display:flex;
@@ -281,7 +276,7 @@ scroll-behavior:smooth;
     position:relative;
 }
 
-/* bottom strip */
+
 
 .gray-strip{
     position:absolute;
@@ -296,13 +291,13 @@ scroll-behavior:smooth;
 }
 
 
-.g1{ background:#333; }   /* darkest */
+.g1{ background:#333; }  
 .g2{ background:#6f6f6f; }
 .g3{ background:#b4b3b3; }
 .g4{ background:#ccc; }
-.g5{ background:#f2f2f2; } /* almost white */
+.g5{ background:#f2f2f2; } 
 
-/* center logo */
+
 
 .kamui-center3{
     height:100%;
@@ -334,7 +329,7 @@ scroll-behavior:smooth;
     align-items:center;
 }
 
-/* temple container */
+
 
 .temple{
     width:1000px;
@@ -342,7 +337,6 @@ scroll-behavior:smooth;
     position:relative;
 }
 
-/* roof */
 
 .roof{
     width:500px;
@@ -352,7 +346,7 @@ scroll-behavior:smooth;
     border-bottom:120px solid #2b2b2b;
 }
 
-/* pillars */
+
 
 .pillars{
     display:flex;
@@ -367,7 +361,7 @@ scroll-behavior:smooth;
     background:#2b2b2b;
 }
 
-/* base */
+
 
 .base{
     width:100%;
